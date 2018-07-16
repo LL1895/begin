@@ -14,4 +14,4 @@
 --protected.py
            ECS 设置被保护的主机ID
            EIP 设置被保护的弹性IP地址
-样例：*/3 * * * * /usr/bin/python /usr/local/src/cloud_resource_manager/bin/cloud_resource_manager.py
+样例：*/3 * * * * /usr/bin/python /usr/local/src/begin/cloud_resource_manager/bin/cloud_resource_manager.py
