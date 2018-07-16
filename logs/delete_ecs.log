@@ -1,22 +1,55 @@
-2018-05-30 11:16:40  ECS zmd Delete result:{'job_id': '8aace0c863ac51550163af0c2d2b5b69'} return_code:200.
-2018-05-30 11:26:10  ECS zmd Delete result:{'job_id': '8aace0c863ac51550163af14e0c3676d'} return_code:200.
-2018-05-30 11:26:23  ECS zmd Delete result:{'job_id': '8aace0c763ac50390163af151419575e'} return_code:200.
-2018-05-30 11:27:12  ECS zmd Delete result:{'job_id': '8aace0c863ac51550163af15d12c68db'} return_code:200.
-2018-05-30 11:27:32  ECS zmd Delete result:{'job_id': '8aace0c663ac4f150163af1620d26247'} return_code:200.
-2018-05-30 11:30:32  ECS zmd Delete result:{'job_id': '8aace0c663ac4f150163af18e11662ee'} return_code:200.
-2018-05-30 11:30:34  ECS zmd Delete result:{'job_id': '8aace0c763ac50390163af18e8d15869'} return_code:200.
-2018-05-30 21:46:10  ECS ecs-22ec Delete Successful result:{'job_id': '8aace0c863ac51550163b14c7ff074e3'} return_code:200.
-2018-05-30 21:46:11  ECS agent Delete Successful result:{'job_id': '8aace0c663ac4f150163b14c82404ee8'} return_code:200.
-2018-05-30 21:46:11  ECS ecs-lzl3 Delete Successful result:{'job_id': '8aace0c663ac4f150163b14c84174eec'} return_code:200.
-2018-05-30 21:47:32  ECS ecs-王亚勇-0610 Delete Successful result:{'job_id': '8a0eaa9663929db50163b14dbdf33674'} return_code:200.
-2018-05-30 21:48:07  ECS liliang-网络测试 Delete Successful result:{'job_id': 'ff8080826397de940163b14e473574b0'} return_code:200.
-2018-05-30 21:48:07  ECS xuchao Delete Successful result:{'job_id': 'ff8080826397e0710163b14e49f26f30'} return_code:200.
-2018-05-31 20:45:41  ECS xuchao Delete Successful result:{'job_id': '8aace0c663ac4f150163b63b7c684dee'} return_code:200.
-2018-05-31 20:45:49  ECS xpj-sh2-win Delete Successful result:{'job_id': '8a0eaa9563929c8e0163b63b9c90324b'} return_code:200.
-2018-05-31 20:45:51  ECS xpj-sh2-c7 Delete Successful result:{'job_id': '8a0eaa9663929db50163b63ba38762c7'} return_code:200.
-2018-05-31 20:46:03  ECS xuchao-test Delete Successful result:{'job_id': 'ff8080826397de940163b63bd2fb3a4d'} return_code:200.
-2018-06-01 18:38:50  ECS ecs-zhangyang Delete Successful result:{'job_id': '8aace0c763ac50390163baedb6897dc1'} return_code:200.
-2018-06-01 18:38:51  ECS xuchao-test Delete Successful result:{'job_id': '8aace0c763ac50390163baedbab37dcc'} return_code:200.
-2018-06-02 08:08:35  ECS zhangmingdatest Delete Successful result:{'job_id': '8aace0c863ac51550163bdd2fc6f5ed0'} return_code:200.
-2018-06-02 08:08:40  ECS xpj-sh2-cent Delete Successful result:{'job_id': '8a0eaa9563929c8e0163bdd3207d72b4'} return_code:200.
-2018-06-02 08:08:55  ECS xuchao Delete Successful result:{'job_id': 'ff8080826397e0710163bdd35d0c252f'} return_code:200.
+2018-06-03 19:00:12  ECS ecs-275d Delete Successful result:{'job_id': 'ff8080826397df910163c54e03ef14fa'} return_code:200.
+2018-06-05 21:07:28  ECS wang-test Delete Successful result:{'job_id': '8aace0c763ac50390163d00f45407ab8'} return_code:200.
+2018-06-05 21:07:48  ECS liliang Delete Successful result:{'job_id': 'ff8080826397e0710163d00f932e37a9'} return_code:200.
+2018-06-06 17:33:11  ECS liliang Delete Successful result:{'job_id': 'ff8080826397df910163d4716af17e18'} return_code:200.
+2018-06-06 19:03:03  ECS xuchao-ces Delete Successful result:{'job_id': '8aace0c763d02abc0163d4c3ae9f2f46'} return_code:200.
+2018-06-07 19:00:06  ECS wanglong Delete Successful result:{'job_id': '8aace0c763d02abc0163d9e75a3212f8'} return_code:200.
+2018-06-07 19:00:10  ECS xuchao-test Delete Successful result:{'job_id': '8aace0c763d02abc0163d9e7697a1306'} return_code:200.
+2018-06-07 20:54:04  ECS ecs-王亚勇 Delete Successful result:{'job_id': '8a0eaa9563929c8e0163da4fb3036e7d'} return_code:200.
+2018-06-11 21:57:02  ECS ecs-dcea Delete Successful result:{'job_id': '8aace0c863d02b910163ef22d3e61ccb'} return_code:200.
+2018-06-12 21:18:12  ECS xpj-centos7 Delete Successful result:{'job_id': 'ff80808263ef68b00163f425a4844f5a'} return_code:200.
+2018-06-13 19:00:03  ECS jszc-82014 Delete Successful result:{'job_id': '8aace0c763d02abc0163f8cd897e6e08'} return_code:200.
+2018-06-13 19:00:04  ECS xc-test Delete Successful result:{'job_id': '8aace0c663d029c50163f8cd8bf7088d'} return_code:200.
+2018-06-14 00:30:20  ECS 重要误删-master-0002 Delete Successful result:{'job_id': 'ff80808263f48d260163f9fbec441ca3'} return_code:200.
+2018-06-14 00:30:21  ECS 重要误删-master-0001 Delete Successful result:{'job_id': 'ff80808263f48e0e0163f9fbeec61ef3'} return_code:200.
+2018-06-14 19:00:03  ECS xuchao-test Delete Successful result:{'job_id': '8aace0c863f98d000163fdf3e7ec6960'} return_code:200.
+2018-06-14 19:06:03  ECS ecs-hehao Delete Successful result:{'job_id': '8aace0c763f98c1e0163fdf9639f4f06'} return_code:200.
+2018-06-15 19:00:04  ECS xuchao-test Delete Successful result:{'job_id': '8aace0c663f98b170164031a4b380268'} return_code:200.
+2018-06-19 19:00:02  ECS ecs-zy-test Delete Successful result:{'job_id': '8aace0c86404718c016417b3be9575ff'} return_code:200.
+2018-06-20 19:00:03  ECS ecs-c08c Delete Successful result:{'job_id': '8aace0c664046fe401641cda205a1558'} return_code:200.
+2018-06-20 19:00:04  ECS xuchao-test Delete Successful result:{'job_id': '8aace0c664046fe401641cda24291563'} return_code:200.
+2018-06-20 22:06:06  ECS ecs-lzl Delete Successful result:{'job_id': '8a0eaa9664047b9a01641d84759b5c09'} return_code:200.
+2018-06-21 19:00:04  ECS zxx Delete Successful result:{'job_id': '8aace0c7640470cd0164220082ad0f62'} return_code:200.
+2018-06-21 19:00:15  ECS ecs-lzl Delete Successful result:{'job_id': '8a0eaa9564047aa201642200aee46d83'} return_code:200.
+2018-06-21 20:42:03  ECS xpj-centos7 Delete Successful result:{'job_id': '8aace0c664046fe40164225de0ee7806'} return_code:200.
+2018-06-22 19:00:02  ECS ecs-4372 Delete Successful result:{'job_id': '8aace0c76422e03201642726da3777e7'} return_code:200.
+2018-06-22 19:00:10  ECS zxx Delete Successful result:{'job_id': '8a0eaa956422fec901642726f7650172'} return_code:200.
+2018-06-23 09:48:06  ECS zxx2-勿动 Delete Successful result:{'job_id': '8a0eaa966422ffb101642a53e7e45dca'} return_code:200.
+2018-06-26 01:24:02  ECS xpj-c6 Delete Successful result:{'job_id': '8aace0c76422e032016437f986346114'} return_code:200.
+2018-06-26 02:00:03  ECS ecs-4121 Delete Successful result:{'job_id': '8aace0c76422e0320164381a7ebc69e9'} return_code:200.
+2018-06-27 04:36:03  ECS jszc-58010 Delete Successful result:{'job_id': '8aace0c86422e12d01643dcfb05b60eb'} return_code:200.
+2018-06-27 20:39:02  ECS xuchao Delete Successful result:{'job_id': '8aace0c86422e12d01644141572f6100'} return_code:200.
+2018-06-28 01:39:08  ECS test Delete Successful result:{'job_id': '8a0eaa966422ffb101644254177e4331'} return_code:200.
+2018-06-28 21:09:04  ECS xuchao-test Delete Successful result:{'job_id': '8aace0c86422e12d0164468330fc5e87'} return_code:200.
+2018-06-28 22:09:02  ECS ecs-b602 Delete Successful result:{'job_id': '8aace0c66422df3f016446ba1caa070a'} return_code:200.
+2018-06-29 01:24:15  ECS ecs-wyy Delete Successful result:{'job_id': '8a0eaa95644703480164476cd4c40aef'} return_code:200.
+2018-06-29 01:51:04  ECS ecs-ubuntu Delete Successful result:{'job_id': '8aace0c86446ff65016447855e186483'} return_code:200.
+2018-06-29 02:15:05  ECS ecs-lzl Delete Successful result:{'job_id': '8aace0c76446fe660164479b602f7e17'} return_code:200.
+2018-06-29 20:30:06  ECS ecs-lzl Delete Successful result:{'job_id': '8aace0c86446ff6501644b85e4755bf7'} return_code:200.
+2018-06-29 20:54:02  ECS ecs-CBH Delete Successful result:{'job_id': '8aace0c66446fd5801644b9bcfc2746b'} return_code:200.
+2018-06-29 22:45:07  ECS ecs-zy-test Delete Successful result:{'job_id': '8a0eaa956447034801644c0184dc332b'} return_code:200.
+2018-06-30 02:39:03  ECS xuchao-kube Delete Successful result:{'job_id': '8aace0c66446fd5801644cd7accf67a3'} return_code:200.
+2018-06-30 02:45:04  ECS ecs-wl-mysql Delete Successful result:{'job_id': '8aace0c66446fd5801644cdd332d6e5b'} return_code:200.
+2018-07-09 20:45:03  ECS xuchao-test Delete Successful result:{'job_id': '8aace0c8647acaf701647f134aae32af'} return_code:200.
+2018-07-09 21:45:03  ECS ecs-lzl Delete Successful result:{'job_id': '8aace0c7647aca1801647f4a358f34fc'} return_code:200.
+2018-07-10 04:39:03  ECS ecs-80c4 Delete Successful result:{'job_id': '8aace0c7647aca18016480c53d994025'} return_code:200.
+2018-07-10 04:54:08  ECS ecs-wyy-test Delete Successful result:{'job_id': '8a0eaa95646b27a3016480d310a13f1d'} return_code:200.
+2018-07-10 05:45:03  ECS ecs-wyy-test Delete Successful result:{'job_id': '8aace0c6647ac92d01648101ac025505'} return_code:200.
+2018-07-10 20:09:03  ECS xuchao-test Delete Successful result:{'job_id': '8aace0c6647ac92d01648418b3ea606e'} return_code:200.
+2018-07-11 03:45:02  ECS ecs-王亚勇 Delete Successful result:{'job_id': '8aace0c6647ac92d016485ba2b0c4ef6'} return_code:200.
+2018-07-11 20:30:03  ECS xuchao-test Delete Successful result:{'job_id': '8aace0c6647ac92d016489524a1863a8'} return_code:200.
+2018-07-12 02:36:06  ECS ecs-zytest Delete Successful result:{'job_id': '8a0eaa95646b27a301648aa16c4c0b68'} return_code:200.
+2018-07-12 03:06:02  ECS ecs-wl Delete Successful result:{'job_id': '8aace0c8647acaf701648abcd6126889'} return_code:200.
+2018-07-12 03:36:02  ECS ecs-lzl Delete Successful result:{'job_id': '8aace0c6647ac92d01648ad84e0e3004'} return_code:200.
+2018-07-12 20:06:04  ECS xuchao-test Delete Successful result:{'job_id': '8aace0c8647acaf701648e62b0fb08cd'} return_code:200.
+2018-07-14 04:36:04  ECS ecs-test Delete Successful result:{'job_id': '8aace0c6649473fd0164955c01f522f3'} return_code:200.

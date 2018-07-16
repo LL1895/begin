@@ -21,7 +21,7 @@ def manager_ecs(token,url_project,sub_project_id,smn_token, smn_project, smn_pro
             pass
         else:
             settings.userinfo[user_id] = {'phone': settings.all_phone, 'name': settings.iam['domainname']}
-        smn_shut_info = '%s 您好，您的主机：%s 被你累的Down了， 当前自动关机时间为创建后 %d小时 从现在开始%d小时后将自焚。有重要数据请尽快做镜像备份or需长期使用找管理员添加白名单' % (settings.userinfo[user_id]['name'], ecs_name, settings.off_time['ecs'],settings.del_time['ecs'] - settings.off_time['ecs'])
+        smn_shut_info = '%s 您好，您的主机：%s 被你累的Down了， 当前自动关机时间为创建后 %d小时 从现在开始%d小时后将自焚。有重要数据请尽快做镜像备份or需长期使用请将主机名和带宽名称加入 勿删 二字 然后再开机，将不会被关机和删除' % (settings.userinfo[user_id]['name'], ecs_name, settings.off_time['ecs'],settings.del_time['ecs'] - settings.off_time['ecs'])
         smn_del_info = '%s 您好，您的主机：%s 正在自焚....当前设置的自焚时间为创建后 %d小时。' % (settings.userinfo[user_id]['name'], ecs_name, settings.del_time['ecs'])
 
         if ecs_id not in protected.ECS and time.time() > SHUTOFF_time and ecs_status != "SHUTOFF" and settings.nodel_ecs_name not in ecs_name:
@@ -41,11 +41,11 @@ def  manager_publicips(token, url_project, sub_project_id,smn_token, smn_project
     del_nat_rules_iplist = []
     del_elb_iplist = []
     for publicip in publicips:
-        if  not publicip['profile']['user_id'] and publicip['public_ip_address'] not in protected.EIP: # and publicip['bandwidth_share_type'] == 'PER'
+        if  not publicip['profile']['user_id'] and publicip['public_ip_address'] not in protected.EIP and settings.nodel_bandwidth_name not in publicip['bandwidth_name']: # and publicip['bandwidth_share_type'] == 'PER'
             '''not publicip['profile']['user_id']判断按需计费 PER为独享带宽'''
             create_stamp = time.mktime(time.strptime(publicip['create_time'], format("%Y-%m-%d %H:%M:%S"))) + 28800  # 将时间字符串转按指定格式换为元组<class 'time.struct_time'>
             DEL_time_stamp = create_stamp + settings.del_time['publicip'] * 3600
-            if time.time()> DEL_time_stamp :
+            if time.time() > DEL_time_stamp :
                 publicip_id = publicip['id']
                 ipaddress = publicip['public_ip_address']
                 smn_del_ip_info = '%s 您好，您的IP：%s 已被删除，当前按需IP自动删除时间为创建后 %d小时' % (settings.iam['domainname'], ipaddress, settings.del_time['publicip'])
@@ -107,9 +107,10 @@ def manager_elb(token, url_project,sub_project_id,del_elb_iplist,smn_token, smn_
                                 delete.remove_elb_listener_ecs(token, url_project, sub_project_id, listener['id'], backend_ecs)
 
                     time.sleep(3)
-                    smn_del_ELBip_info = '%s 您好 您的IP：%s(经典型ELB使用)将被删除，使用其的ELB也将删除。当前设置自动删除时间为按需IP创建后 %d小时' % (settings.iam['domainname'], elb_ip, settings.del_time['publicip'])
-                    smn.smn(smn_token, smn_project, smn_project_id, settings.all_phone, smn_del_ELBip_info)
-                    delete.del_elb(token, url_project, sub_project_id, elb['id'], elb['vip_address'])
+                    smn_del_ELBip_info = '%s 您好 您的 经典型ELB IP：%s 已经化蝶飞。当前设置自动化蝶时间为按需IP创建后 %d小时' % (settings.iam['domainname'], elb_ip, settings.del_time['publicip'])
+                    del_resource = delete.del_elb(token, url_project, sub_project_id, elb['id'], elb['vip_address'])
+                    if del_resource:
+                        smn.smn(smn_token, smn_project, smn_project_id, settings.all_phone, smn_del_ELBip_info)
 
 # def manager_enhance_elb():
 #     enhance_elb_list = search_list.search_enhance_elb_list(token, url_project)

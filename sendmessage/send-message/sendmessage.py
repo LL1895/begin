@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # _*_ coding:utf-8 _*_
 import requests  #导入http协议请求模块
-import sys, time, os, getpass#, son
+import sys, time, os, getpass,json#, son
 
 #定义获取token函数
 def get_tocken():
@@ -109,7 +109,7 @@ def getmessage():
 if __name__ == '__main__':
 	token = get_tocken()	#搞到token
 	#project_id = ????
-	url = "https://smn.cn-north-1.myhwclouds.com/v2/52fb7d7429d04068ae8ff9632106e701/notifications/sms"  #华北SMN的API
+	url = "https://smn.cn-north-1.myhwclouds.com/v2/10a85dd37bac4e8abf6f6c349c7edfdd/notifications/sms"  #华北SMN的API
 	phones = phones()
 	message = getmessage()
 	if phones:
